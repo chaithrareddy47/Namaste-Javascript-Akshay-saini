@@ -9,7 +9,8 @@ The variable environment (Memory Component) of an execution context is the space
 Each execution context has its own variable environment (Memory Component), which holds the variables and functions specific to that context.
 When a variable is accessed, JavaScript searches for its value first in the local variable environment and then in the outer variable environments until it reaches the global variable environment.
 This hierarchical structure of variable environments allows for lexical scoping, where variables are resolved based on their proximity to the current execution context.
-Code Flow in terms of Execution Context
+
+## Code Flow in terms of Execution Context
 var x = 1;
 a();
 b(); // we are calling the functions before defining them. This will work properly, as seen in Hoisting.
