@@ -14,8 +14,9 @@ Memory Aid:
 Variable declarations are scanned and are made undefined
 Function declarations are scanned and are made available
 
-Examples of Hoisting:
-Example 1:
+### Examples of Hoisting:
+### Example 1:
+
 getName(); // Namaste Javascript
 console.log(x); // undefined
 var x = 7;
@@ -23,8 +24,9 @@ function getName() {
     console.log('Namaste Javascript');
 }
 
+
 Try to understand by yourself
-Example 2:
+### Example 2:
 getName(); // Namaste JavaScript
 console.log(x); // Uncaught Reference: x is not defined.
 console.log(getName); // f getName(){ console.log("Namaste JavaScript); }
@@ -34,7 +36,7 @@ function getName() {
 
 
 Try to understand by yourself
-Example 3:
+### Example 3:
 getName(); // Uncaught TypeError: getName is not a function
 console.log(getName);
 var getName = function () {
@@ -43,4 +45,5 @@ var getName = function () {
 // The code won't execute as the first line itself throws a TypeError.
 
 Try to understand by yourself
+
 Note: It's important to understand the distinction between function declarations and function expressions when dealing with hoisting. Function declarations are fully hoisted, while function expressions behave like variables and are hoisted with an initial value of undefined.
