@@ -11,4 +11,6 @@ javascript goes to nextline only when the first line is executed completely
 
 javascript is not possible without execution context
 
+for 
+
 ![](./images/IMG_6977.jpg)
