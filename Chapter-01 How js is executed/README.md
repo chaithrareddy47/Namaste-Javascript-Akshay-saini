@@ -1,16 +1,6 @@
-# Chapter - 01
-## How javascript works
+# Chapter - 01 - How Js Code is Executed
+  # "Everything in JavaScript happens inside the execution context."
+- Execution context is a big container where javascript code is executed
 
-# "Everything in javascript Happens inside execution context"
-
-# "Javascript is a sychronous signle threaded language"
-
-single threaded means -> executing line by line or one command once at a time
-
-javascript goes to nextline only when the first line is executed completely
-
-javascript is not possible without execution context
-
-for 
-
-![](./images/IMG_6977.jpg)
+  (Chapter-01)[file:///C:/Users/Chaitra/Downloads/Chapter-01.pdf]
+  
