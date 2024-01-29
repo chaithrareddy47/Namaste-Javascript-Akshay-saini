@@ -30,20 +30,20 @@ x();
 console.log(z);// here we will get error
 
 # Scope
-  - scope means a region or area in code where particualr varibale and function can be accessed
+  - scope means a region or area in code where particular variable and function can be accessed
 
-  ## there are 2 aspects in the scope
+  ## There are 2 aspects in the scope
      1. what is the scope of any variable
-     2. is any particular varible is insdie the  scope of another one
+     2. is any particular variable is inside the  scope of another one
 
-  ## scope is directly dependent on lexical environment
+  ## Scope is directly dependent on the lexical environment
 
-  ## each block of code creates scope and lexical environment
+  ## Each block of code creates a scope and lexical environment
 
-  ## whenever the global execution is careted lexical environment is also created 
+  ## Whenever the global execution is created, a lexical environment is also created 
 
-  ## lexical environmnet 
-     - lexical means - local memory along with lexical envi along with its parent
+  ## Lexical environmnet 
+     - lexical means - local memory along with lexical environment along with its parent
 
      - lexical means sequence or order
 
